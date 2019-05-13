@@ -12,6 +12,8 @@ import csv
 #
 #
 sets = []
+mob_int = int
+player_int = int
 #
 #
 def main():
@@ -32,7 +34,6 @@ def D_calc():
     Definition of Variables
 
     * V: Every individual damage-dealing magic spell has a base damage value denoted as V.
-    * dINT: dINT represents the difference between caster and target INT: (Caster's INT - Target's INT).
     * M: Every individual damage-dealing magic spell has several INT multiplier values denoted as M for different dINT ranges.
         Note: For offensive white magic, substitute dMND for dINT (Caster's MND - Target's MND)
     * mDMG: mDMG represents the "Magic Damage" statistic obtained from equipped weapons and armor.
@@ -55,8 +56,30 @@ def D_calc():
     Reference:  https://www.bg-wiki.com/bg/Magic_Damage#Calculating_D
     
     '''
+    dINT = dINT_calc(mob_int,player_int)
+    
+    if 
     print()
 
+#
+#
+def dINT_calc(mob,player):
+    '''
+    dINT: dINT represents the difference between caster and target INT: (Caster's INT - Target's INT).
+    '''
+    value = player - mob
+    return value
+#
+#
+def spell_info_M(dINT):
+    if dINT < 50:
+        input_file = csv.DictReader(open("sv1.csv"))
+    elseif dINT < 100:
+        input_file = csv.DictReader(open("sv2.csv"))
+    elseif dINT < 100:
+        input_file = csv.DictReader(open("sv3.csv"))
+    else:
+        input_file = csv.DictReader(open("sv4.csv"))
 #
 #
 if __name__ == "__main__":
