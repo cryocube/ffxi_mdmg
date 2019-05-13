@@ -22,7 +22,7 @@ def stats_import():
     input_file = csv.DictReader(open("test"))
     for row in input_file:
         sets.append(row)
-    print sets
+    print(*sets, sep = "\n")
 #
 #
 def D_calc():
