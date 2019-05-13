@@ -1,0 +1,70 @@
+Spell,V,M
+Stone,160,0
+Water,165,0
+Aero,170,0
+Fire,175,0
+Blizzard,180,0
+Thunder,185,0
+Stone II,350,1
+Water II,355,1
+Aero II,360,1
+Fire II,365,1
+Blizzard II,370,1
+Thunder II,375,1
+Stone III,550,2
+Water III,560,1.95
+Aero III,570,1.9
+Fire III,580,1.85
+Blizzard III,590,1.8
+Thunder III,600,1.75
+Stone IV,850,3
+Water IV,870,2.95
+Aero IV,890,2.9
+Fire IV,915,2.85
+Blizzard IV,935,2.8
+Thunder IV,955,2.75
+Stone V,1200,4
+Water V,1217,3.95
+Aero V,1235,3.9
+Fire V,1252,3.85
+Blizzard V,1270,3.8
+Thunder V,1287,3.75
+Stonega,310,1
+Waterga,315,1
+Aeroga,320,1
+Firaga,325,1
+Blizzaga,350,1
+Thundaga,375,1
+Stonega II,600,2
+Waterga II,610,1.95
+Aeroga II,620,1.9
+Firaga II,630,1.85
+Blizzaga II,640,1.8
+Thundaga II,650,1.75
+Stonega III,950,3
+Waterga III,970,2.95
+Aeroga III,990,2.9
+Firaga III,1015,2.85
+Blizzaga III,1035,2.8
+Thundaga III,1055,2.75
+Stoneja,1300,4
+Waterja,1317,3.95
+Aeroja,1335,3.9
+Firaja,1352,3.85
+Blizzaja,1370,3.8
+Thundaja,1387,3.75
+Stonera,400,1
+Watera,415,1
+Aerora,430,1
+Fira,445,1
+Blizzara,460,1
+Thundara,475,1
+Stonera II,700,2
+Watera II,720,1.95
+Aerora II,740,1.9
+Fira II,760,1.85
+Blizzara II,780,1.8
+Thundara II,800,1.75
+Ancient Magic,900,2
+Ancient Magic II,1000,2
+Comet,1387,3.5
